@@ -1,0 +1,15 @@
+.authorization-logo {
+  background-image: url("/logos.png");
+  background-position: 0px -52px;
+  background-size: auto;
+  width: 175px;
+  height: 51px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*# sourceMappingURL=globals.css.map */
