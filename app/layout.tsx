@@ -7,16 +7,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  story
+  story,
+  authorization
 }: Readonly<{
   children: React.ReactNode;
   story: React.ReactNode;
+  authorization: React.ReactNode;
 }>) {
+  const isAuthenticated = false
   return (
     <html>
       <body>
-        {children}
-        {story}
+        {isAuthenticated ? children : authorization}
       </body>
     </html>
   );
