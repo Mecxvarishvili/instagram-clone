@@ -13,10 +13,10 @@ export default function LogInForm() {
             <button type="submit"> Log in</button>
         </form>
 
-        <div>
-          <div></div>
-          <div>OR</div>
-          <div></div>
+        <div className="flex w-full px-10 items-center gap-2" >
+          <div className="bg-slate-200 h-px grow" ></div>
+          <div className="text-slate-500" >OR</div>
+          <div className="bg-slate-200 h-px grow" ></div>
         </div>
 
         <div>
